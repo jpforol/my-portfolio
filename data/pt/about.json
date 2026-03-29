@@ -1,0 +1,78 @@
+{
+  "section_title": "Sobre Mim",
+  "bio": [
+    "Sou um RPA Software Developer com experiência em automação de processos, atuando desde o levantamento de requisitos e mapeamento AS-IS até a implementação de soluções e apoio na implantação em ambientes produtivos.",
+    "Trabalho com plataformas como UiPath e Power Automate, além de utilizar linguagens como Python, C# e VB.NET para integrações e customizações quando necessário. Tenho interesse em transformar processos repetitivos e ineficientes em soluções digitais mais organizadas e confiáveis.",
+    "Ao longo da minha experiência, participei da automação de diversos processos nas áreas de finanças, logística, RH e back-office, contribuindo para ganhos de produtividade e redução de erros operacionais."
+  ],
+  "skills_title": "Competências Principais",
+  "skills": [
+    {
+      "icon": "⚙️",
+      "label": "UiPath"
+    },
+    {
+      "icon": "🔵",
+      "label": "Power Automate"
+    },
+    {
+      "icon": "🐍",
+      "label": "Python"
+    },
+    {
+      "icon": "📊",
+      "label": "Process Mining"
+    },
+    {
+      "icon": "🗺️",
+      "label": "Mapeamento de Processos (AS-IS / TO-BE)"
+    },
+    {
+      "icon": "🏗️",
+      "label": "Arquitetura RPA"
+    },
+    {
+      "icon": "🔗",
+      "label": "Integração de APIs e Sistemas"
+    },
+    {
+      "icon": "📋",
+      "label": "Análise de Negócios"
+    },
+    {
+      "icon": "☁️",
+      "label": "Automação em Nuvem"
+    }
+  ],
+  "stats": [
+    {
+      "value": "15+",
+      "label": "Processos Automatizados"
+    },
+    {
+      "value": "10k+",
+      "label": "Horas Economizadas / Ano"
+    },
+    {
+      "value": "2+",
+      "label": "Anos de Experiência"
+    }
+  ],
+  "contact_title": "Contato",
+  "contact": {
+    "email": "jpforol@gmail.com",
+    "linkedin": "linkedin.com/in/jpforol",
+    "github": "github.com/jpforol",
+    "location": "Serra/ES - Brasil"
+  },
+  "certifications_title": "Certificações",
+  "certifications": [
+    {
+      "name": "UiPath Certified Professional Automation Developer Professional Certification",
+      "issuer": "UiPath",
+      "date": "Ago de 2025",
+      "url": "https://www.credential.net/56a05e74-5533-4ec4-aba4-6123b5cc0f01",
+      "image": "https://pdf.ms.credential.net/badge/image?env=production&credential=46arhiep"
+    }
+  ]
+}

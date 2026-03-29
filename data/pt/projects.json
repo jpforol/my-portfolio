@@ -1,0 +1,106 @@
+{
+  "section_title": "Projetos",
+  "section_subtitle": "Uma seleção de soluções de automação entregues em diferentes indústrias.",
+  "tags_label": "Filtrar por tecnologia",
+  "items": [
+    {
+      "id": 1,
+      "title": "Saneamento de Dados de Medicamentos",
+      "description": "Saneamento automatizado de ponta a ponta de registros de medicamentos em 3 bases distintas do cliente. O bot recupera planilhas de divergências do Bucket do UiPath Orchestrator, segrega os dados via Queues e processa cada base de forma independente. Reduziu erros no saneamento e liberou recursos para tarefas de maior complexidade.",
+      "tech": ["UiPath", "UiPath Orchestrator"],
+      "category": "Saúde",
+      "impact": "Redução de erros e melhor alocação de recursos",
+      "status": "Produção"
+    },
+    {
+      "id": 2,
+      "title": "Cadastro de Contrato de Plano de Saúde",
+      "description": "Projeto mais complexo do portfólio. Construído um pipeline com IA para extrair cláusulas, tabelas e dados estruturados de contratos extensos de planos de saúde, seguido do cadastro automatizado do plano no sistema do cliente. Os serviços AWS cuidaram da preparação e extração dos dados; o UiPath conduziu o fluxo de cadastro.",
+      "tech": ["UiPath", "AWS", "IA/ML"],
+      "category": "Saúde",
+      "impact": "Onboarding de contratos complexos automatizado",
+      "status": "Produção"
+    },
+    {
+      "id": 3,
+      "title": "Automação de Ajuste de Contratos no SAP",
+      "description": "Bot UiPath que navega no SAP para extrair dados de contratos e aplicar regras de negócio para os ajustes necessários. O fluxo abrange múltiplos sistemas: SAP para extração e atualização de dados, SharePoint para armazenamento de arquivos e Outlook para notificações automáticas por e-mail durante o processo.",
+      "tech": ["UiPath", "SAP", "SharePoint", "Outlook"],
+      "category": "Financeiro",
+      "impact": "Processamento de contratos multissistema automatizado",
+      "status": "Produção"
+    },
+    {
+      "id": 4,
+      "title": "Cadastro de Lançamentos — Área Comercial",
+      "description": "Fluxo Power Automate para a área comercial. Recupera dados de fontes recebidas por e-mail, aciona um modelo de IA (desenvolvido por equipe parceira) para extração, estrutura o resultado em formato padrão, encaminha para aprovação da área usuária e, após aprovação, lança os dados diretamente no SAP.",
+      "tech": ["Power Automate", "SAP", "IA/ML", "Outlook"],
+      "category": "Comercial",
+      "impact": "Processamento direto do e-mail ao SAP",
+      "status": "Produção"
+    },
+    {
+      "id": 5,
+      "title": "Distribuição de Arquivos SAP — Comercial",
+      "description": "Rotina diária em Power Automate para a área comercial que monitora uma transação no SAP, extrai arquivos relevantes do negócio e os encaminha automaticamente para os responsáveis corretos via Outlook — eliminando a distribuição manual de arquivos.",
+      "tech": ["Power Automate", "SAP", "Outlook"],
+      "category": "Comercial",
+      "impact": "Distribuição diária de arquivos totalmente automatizada",
+      "status": "Produção"
+    },
+    {
+      "id": 6,
+      "title": "Atualização Financeira SharePoint para SAP",
+      "description": "Rotina diária em Power Automate para a área Financeira. Monitora um repositório SharePoint alimentado pelo cliente; ao detectar novos itens, aplica regras de extração e de negócio e atualiza os registros no SAP com os ajustes processados.",
+      "tech": ["Power Automate", "SAP", "SharePoint"],
+      "category": "Financeiro",
+      "impact": "Lançamentos financeiros diários automatizados de ponta a ponta",
+      "status": "Produção"
+    },
+    {
+      "id": 7,
+      "title": "Inclusão de Colaboradores no Plano de Saúde",
+      "description": "Rotina semanal em Power Automate para o RH. Verifica no SAP a inclusão de novos colaboradores e os cadastra automaticamente no portal do plano de saúde via automação web, garantindo que novos contratados recebam o benefício sem intervenção manual.",
+      "tech": ["Power Automate", "SAP", "Automação Web"],
+      "category": "RH",
+      "impact": "Inclusão de benefícios para novos colaboradores sem intervenção manual",
+      "status": "Produção"
+    },
+    {
+      "id": 8,
+      "title": "Fechamento Mensal de Contas — Tributário",
+      "description": "Rotina mensal em Power Automate para a área Tributária. Acessa a transação responsável no SAP, aplica todas as regras de negócio necessárias e executa o fechamento de conta do período — garantindo conformidade e reduzindo o esforço manual no fechamento.",
+      "tech": ["Power Automate", "SAP"],
+      "category": "Tributário",
+      "impact": "Fechamento mensal no SAP automatizado",
+      "status": "Produção"
+    },
+    {
+      "id": 9,
+      "title": "Fluxo de Aprovação — Governança de TI",
+      "description": "Integração Power Automate para a área de Governança de TI. A cada novo chamado aberto no ServiceNow, o fluxo dispara automaticamente uma solicitação de aprovação via Teams Approvals para o responsável e atualiza o status do chamado via API do ServiceNow — mantendo os fluxos de governança ágeis e rastreáveis.",
+      "tech": ["Power Automate", "ServiceNow", "Microsoft Teams", "REST API"],
+      "category": "Governança de TI",
+      "impact": "Tempo de ciclo de aprovação drasticamente reduzido",
+      "status": "Produção"
+    },
+    {
+      "id": 10,
+      "title": "Sincronização de Dados SAP e SAP Ariba",
+      "description": "Rotina diária em Power Automate para a equipe de Cadastro. Exporta e filtra dados do SAP, navega no SAP Ariba para realizar as verificações necessárias e reconcilia os dois sistemas atualizando os registros no SAP — mantendo os dados cadastrais consistentes entre as plataformas.",
+      "tech": ["Power Automate", "SAP", "SAP Ariba"],
+      "category": "Cadastro",
+      "impact": "Reconciliação diária de dados entre sistemas automatizada",
+      "status": "Produção"
+    },
+    {
+      "id": 11,
+      "title": "Comparação de Bases e Geração de Relatório",
+      "description": "Fluxo Power Automate que extrai dados de múltiplas bases e de um site externo, realiza comparações automatizadas entre os conjuntos de dados, gera um relatório consolidado de divergências e o entrega ao cliente via e-mail.",
+      "tech": ["Power Automate", "SAP", "Automação Web", "Outlook"],
+      "category": "Relatórios",
+      "impact": "Relatórios de reconciliação entregues automaticamente aos stakeholders",
+      "status": "Produção"
+    }
+  ]
+}

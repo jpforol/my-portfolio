@@ -1,0 +1,106 @@
+{
+  "section_title": "Projects",
+  "section_subtitle": "A selection of automation solutions delivered across different industries.",
+  "tags_label": "Filter by technology",
+  "items": [
+    {
+      "id": 1,
+      "title": "Medication Data Sanitization",
+      "description": "Automated end-to-end sanitization of medication records across 3 separate client databases. The bot retrieves divergence spreadsheets from UiPath Orchestrator Buckets, segregates data using Queues, and processes each database independently. Reduced sanitization errors and freed up resources for higher-complexity tasks.",
+      "tech": ["UiPath", "UiPath Orchestrator"],
+      "category": "Healthcare",
+      "impact": "Reduced data errors & optimized resource allocation",
+      "status": "Production"
+    },
+    {
+      "id": 2,
+      "title": "Health Plan Contract Registration",
+      "description": "Most complex project in the portfolio. Built an AI-powered pipeline to extract clauses, tables, and structured data from extensive health plan contracts, followed by automated registration of the plan in the client's system. AWS services handled data preparation and extraction; UiPath drove the registration workflow.",
+      "tech": ["UiPath", "AWS", "AI/ML"],
+      "category": "Healthcare",
+      "impact": "Automated complex contract onboarding",
+      "status": "Production"
+    },
+    {
+      "id": 3,
+      "title": "SAP Contract Adjustment Automation",
+      "description": "UiPath bot that navigates SAP to extract contract data and applies business rules for adjustments. Workflow spans multiple systems: SAP for data extraction and updates, SharePoint for file storage, and Outlook for automated email notifications throughout the process.",
+      "tech": ["UiPath", "SAP", "SharePoint", "Outlook"],
+      "category": "Finance",
+      "impact": "Multi-system contract processing automated",
+      "status": "Production"
+    },
+    {
+      "id": 4,
+      "title": "Commercial Area Invoice Registration",
+      "description": "Power Automate flow serving the commercial team. Retrieves data from email-delivered sources, triggers an AI model (built by a partner team) for extraction, structures the output into a standard format, routes it for end-user approval, and upon approval posts the data directly into SAP.",
+      "tech": ["Power Automate", "SAP", "AI/ML", "Outlook"],
+      "category": "Commercial",
+      "impact": "Straight-through processing from email to SAP",
+      "status": "Production"
+    },
+    {
+      "id": 5,
+      "title": "SAP File Distribution – Commercial",
+      "description": "Daily Power Automate routine for the commercial area that monitors a SAP transaction, extracts relevant business files, and automatically routes them to the correct stakeholders via Outlook — eliminating manual file distribution.",
+      "tech": ["Power Automate", "SAP", "Outlook"],
+      "category": "Commercial",
+      "impact": "Daily file distribution fully automated",
+      "status": "Production"
+    },
+    {
+      "id": 6,
+      "title": "SharePoint-to-SAP Financial Updates",
+      "description": "Daily Power Automate routine for the Finance area. Monitors a SharePoint repository fed by the client; when new items are detected, applies extraction and business rules, then updates SAP records with the processed adjustments.",
+      "tech": ["Power Automate", "SAP", "SharePoint"],
+      "category": "Finance",
+      "impact": "Daily financial postings automated end-to-end",
+      "status": "Production"
+    },
+    {
+      "id": 7,
+      "title": "Employee Health Plan Enrollment",
+      "description": "Weekly Power Automate routine for HR. Checks SAP for newly registered employees and automatically enrolls them in the health plan portal via web browser automation, ensuring new hires receive their benefits without manual intervention.",
+      "tech": ["Power Automate", "SAP", "Web Automation"],
+      "category": "HR",
+      "impact": "Zero-touch benefits enrollment for new hires",
+      "status": "Production"
+    },
+    {
+      "id": 8,
+      "title": "Monthly Tax Account Closing",
+      "description": "Monthly Power Automate routine for the Tax area. Accesses the designated SAP transaction, applies all required business rules, and executes the month-end account closing — ensuring compliance and reducing manual effort at period close.",
+      "tech": ["Power Automate", "SAP"],
+      "category": "Tax",
+      "impact": "Automated month-end closing in SAP",
+      "status": "Production"
+    },
+    {
+      "id": 9,
+      "title": "IT Governance Approval Workflow",
+      "description": "Power Automate integration for the IT Governance area. Whenever a new ticket is opened in ServiceNow, the flow automatically triggers a Teams Approvals request to the responsible approver and updates the ticket status via ServiceNow API — keeping governance workflows fast and traceable.",
+      "tech": ["Power Automate", "ServiceNow", "Microsoft Teams", "REST API"],
+      "category": "IT Governance",
+      "impact": "Approval cycle time drastically reduced",
+      "status": "Production"
+    },
+    {
+      "id": 10,
+      "title": "SAP & SAP Ariba Master Data Sync",
+      "description": "Daily Power Automate routine for the Master Data team. Exports and filters data from SAP, navigates SAP Ariba to perform required verifications, and reconciles both systems by updating SAP records — keeping master data consistent across platforms.",
+      "tech": ["Power Automate", "SAP", "SAP Ariba"],
+      "category": "Master Data",
+      "impact": "Daily cross-system data reconciliation automated",
+      "status": "Production"
+    },
+    {
+      "id": 11,
+      "title": "Cross-System Data Comparison & Reporting",
+      "description": "Power Automate flow that extracts data from multiple sources and an external website, performs automated comparisons between the datasets, generates a consolidated discrepancy report, and delivers it to the client via email.",
+      "tech": ["Power Automate", "SAP", "Web Automation", "Outlook"],
+      "category": "Reporting",
+      "impact": "Automated reconciliation reports delivered to stakeholders",
+      "status": "Production"
+    }
+  ]
+}

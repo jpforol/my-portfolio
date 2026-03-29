@@ -1,0 +1,11 @@
+{
+  "greeting": "Hello, I'm",
+  "name": "João Pedro",
+  "image": "/static/images/profile.jpeg",
+  "title": "RPA Software Developer",
+  "subtitle": "Turning manual processes into intelligent automations — from discovery to deployment.",
+  "cta_projects": "View Projects",
+  "cta_cv": "Download CV",
+  "cv_link": "/static/CV_JPFO_022026_ENG.pdf",
+  "cta_contact": "Get in Touch"
+}
