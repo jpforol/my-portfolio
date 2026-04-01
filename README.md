@@ -1,38 +1,39 @@
 # RPA Specialist Portfolio
 
-Fullstack portfolio built with **Flask** (backend) + **HTML/CSS/JS** (frontend).  
+A fast, lightweight **static portfolio** built with purely **HTML, CSS, and Vanilla JavaScript**.  
 Supports **English** and **Portuguese (BR)** with instant language switching.
 
 ## Project Structure
 
-```
+```text
 portfolio/
-├── app.py                  # Flask app + API routes
-├── requirements.txt
-├── vercel.json             # Vercel deployment configuration
+├── index.html              # Main HTML entry point (Single-page shell)
 ├── data/                   # JSON data separated by language & section
 │   ├── en/
 │   └── pt/
-├── templates/
-│   └── index.html          # Single-page shell
 └── static/
     ├── css/
     │   └── style.css       # All styles 
-## Quickstart
-
-```bash
-# 1. Create & activate a virtual environment
-python -m venv .venv
-source .venv/bin/activate        # Windows: .venv\Scripts\activate
-
-# 2. Install dependencies
-pip install -r requirements.txt
-
-# 3. Run the dev server
-python app.py
+    ├── js/
+    │   └── main.js         # Logic to fetch JSON and render the page
+    └── images/             # Profile pictures, project assets, etc.
 ```
 
-Open **http://localhost:5000** in your browser.
+## Quickstart
+
+Because this is a pure static site, you have a few simple options to view it locally:
+
+**Option 1: Live Server (Recommended)**  
+If you use VS Code, install the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension. Right-click on `index.html` and select **"Open with Live Server"**.
+
+**Option 2: Simple Local HTTP Server**  
+Modern browsers restrict fetching local JSON files via the `file://` protocol due to CORS policies. You can quickly spin up an HTTP server using Python:
+
+```bash
+# Run this in the project root directory
+python -m http.server 5000
+```
+Then, open **http://localhost:5000** in your browser.
 
 ## How to Personalise
 
@@ -50,19 +51,14 @@ Just edit these JSON files, drop your images/CV into `static/`, and your portfol
 This project was built from scratch via **vibe coding** (AI-assisted development) and is completely **Open Source**. 
 You are free to fork, clone, modify, and host this portfolio template for your own personal or professional use, without any restrictions. Have fun!
 
-| Method | Route | Description |
-|---|---|---|
-| GET | `/` | Serves the SPA shell |
-| GET | `/api/portfolio/en` | Full EN data |
-| GET | `/api/portfolio/pt` | Full PT data |
-| GET | `/api/projects/en` | Projects list only (EN) |
-| GET | `/api/projects/pt` | Projects list only (PT) |
-
 ## Production Deployment
 
-For production replace `app.run(debug=True)` with a WSGI server:
+This portfolio requires absolutely no backend, making it **100% free** and extremely fast to host.
 
-```bash
-pip install gunicorn
-gunicorn app:app -w 4 -b 0.0.0.0:8000
-```
+**GitHub Pages (Recommended & Free):**
+1. Push this project code to a GitHub repository.
+2. Go to your repository's **Settings > Pages**.
+3. Choose the **main** branch as the source and click Save.
+4. Your portfolio will be live in a couple of minutes!
+
+You can also easily deploy this to [Vercel](https://vercel.com/), [Netlify](https://www.netlify.com/), or [Cloudflare Pages](https://pages.cloudflare.com/) by simply dragging and dropping your project folder into their dashboard or connecting your GitHub repo.
